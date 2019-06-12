@@ -1,6 +1,6 @@
-var animal = 'dog'
+//var animal = 'dog'
 
-function myAnimal() {
+function myAnimal(animal) {
   return animal
 }
 
@@ -10,7 +10,7 @@ function yourAnimal(animal) {
   // P.S.: You can't just hard-code 'cat' below
   return animal
 }
-
+myAnimal('dog');
 yourAnimal('cat');
 
 function add2(n) {
