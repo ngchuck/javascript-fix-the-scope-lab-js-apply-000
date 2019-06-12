@@ -1,5 +1,3 @@
-var animal;
-
 function myAnimal(animal) {
   return animal
 }
@@ -10,8 +8,7 @@ function yourAnimal(animal) {
   // P.S.: You can't just hard-code 'cat' below
   return animal
 }
-myAnimal('dog');
-yourAnimal('cat');
+myAnimal
 
 function add2(n) {
   return n + two
